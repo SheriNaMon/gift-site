@@ -1,0 +1,153 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#450055ab, #0ede84);
+    color: hsl(0, 0%, 0%);
+}
+
+h1{
+    color: white;
+    text-shadow: 0 0 11px #263676;
+}
+
+h2, h3, h4, p {
+    text-shadow: 0 0 1px rgb(255, 255, 255);
+}
+
+#cc-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #263676;
+    margin-bottom: 10px;
+}
+
+#cc-appriciation {
+    color: rgb(255, 255, 255);
+    background: #263676;
+    padding: 6px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#project-execution-date {
+    margin: 0;
+    color: #263676;
+    background: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-sheriandsheen{
+    height: 222px;
+}
+
+
+.gift-amy {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 8px solid white;
+    border-radius: 11px;
+    background-image: url("images/Amy Knecht - Workspace Admin - Administrative Associate with Computer Coach.jpg");
+    background-size: cover;
+}
+
+.gift-kiki {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 8px solid white;
+    border-radius: 11px;
+    background-image: url("images/Kiki Daza-Roeder - Marketing and Technology Instructor.jpg");
+    background-size: cover;
+}
+
+.gift-kasandra {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 8px solid white;
+    border-radius: 11px;
+    background-image: url("images/Kasandra Perez - Recruiting & Marketing Project Coordinator.jpg");
+    background-size: cover;
+}
+
+.gift-suzanne {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 8px solid white;
+    border-radius: 11px;
+    background-image: url("images/Suzanne Ricci - Workspace Owner - Whatever needs to be done.jpg");
+    background-size: cover;
+}
+
+.gift-sheriandsheen {
+        margin: 20px auto;
+        max-width: 400px;
+        height: 400px;
+        border: 8px solid white;
+        border-radius: 11px;
+        background-image: url("images/sheriandsheen.jpg");
+        background-size: cover;
+}   
+
+#gift-img-amy:hover {
+    background-image: url("images/amy.gif");
+}
+
+#gift-img-kiki:hover {
+    background-image: url("images/kiki.gif");
+}
+
+#gift-img-kasandra:hover {
+    background-image: url("images/kasandra.gif");
+}
+
+#gift-img-suzanne:hover {
+    background-image: url("images/suzanne.gif");
+}
+
+#gift-img-sheriandsheen:hover {
+    background-image: url("images/sheriandsheen.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 800px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: rgb(255, 249, 192);
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
